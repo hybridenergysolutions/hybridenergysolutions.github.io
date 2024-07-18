@@ -60,57 +60,19 @@
   </url><url>
     <loc>http://localhost:1313/tags/alerts/</loc>
   </url><url>
-    <loc>http://localhost:1313/layouts/cloud/apple/</loc>
-  </url><url>
-    <loc>http://localhost:1313/layouts/cloud/banana/</loc>
-  </url><url>
-    <loc>http://localhost:1313/layouts/cloud/cantaloupe/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/cloud/</loc>
-  </url><url>
-    <loc>http://localhost:1313/layouts/cloud/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/code/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/content/</loc>
   </url><url>
     <loc>http://localhost:1313/content/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/email/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/email/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/emoji/</loc>
   </url><url>
     <loc>http://localhost:1313/content/emoji-support/</loc>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/figure/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/figures/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/gallery/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/gallery/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/html/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/icon/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/icon/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/image/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/images/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/katex/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/layouts/</loc>
-  </url><url>
-    <loc>http://localhost:1313/layouts/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/link/</loc>
   </url><url>
@@ -128,42 +90,14 @@
   </url><url>
     <loc>http://localhost:1313/tags/privacy/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/quotations/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/quote/</loc>
-  </url><url>
     <loc>http://localhost:1313/content/rich-content/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/layouts/search/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/shortcodes/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/shortcodes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/tabs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/tabs/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/text/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/typesetting/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/videos/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/vimeo/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/vimeo/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-font/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/youtube/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shortcodes/youtube/</loc>
   </url>
 </urlset>
