@@ -1,0 +1,6 @@
+baseURL = 'https://hybridenergysolutions.github.io/'
+languageCode = 'en-us'
+title = 'Hybrid Energy Solutions'
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
