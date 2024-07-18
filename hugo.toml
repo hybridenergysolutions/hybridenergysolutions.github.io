@@ -1,6 +1,93 @@
-baseURL = 'https://hybridenergysolutions.github.io/'
-languageCode = 'en-us'
-title = 'Hybrid Energy Solutions'
+baseurl = "https://example.com"
+enablerobotstxt = true
+paginate = 50
+timezone = "America/Los_Angeles"
+titlecasestyle = "Go"
+
+[languages.en]
+languagecode = "en-us"
+languagedirection = "ltr"
+languagename = "English"
+weight = 10
+
+[languages.en.params.paige]
+copyright = "© Hybrid Energy Solutions"
+description = "Powerful, pliable pixel perfection"
+title = "Hybrid Energy Solutions"
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "services"
+name = "Services"
+url = "/services"
+weight = 90
+
+[[languages.en.menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 100
+
+[markup.goldmark.renderer]
+unsafe = true
+hardWraps = true
+
+[markup.highlight]
+noclasses = false
+
+[markup.tableofcontents]
+endlevel = 6
+ordered = true
+startlevel = 2
+
+[outputs]
+home = ["html", "paige-search"]
+section = ["html"]
+taxonomy = ["html"]
+term = ["html"]
+
+[params.paige.list_page]
+hide_authors = true
+hide_date = true
+hide_keywords = true
+hide_reading_time = true
+hide_series = true
+hide_summary = true
+
+[params.paige.page]
+hide_authors = true
+hide_date = true
+hide_keywords = true
+hide_next = true
+hide_prev = true
+hide_reading_time = true
+hide_series = true
+hide_toc = true
+
+[params.paige.site]
+hide_breadcrumbs = true
+hide_credit = true
+hide_license = true
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
 
 [[module.imports]]
 path = "github.com/willfaught/paige"
+
+[params]
+custom_css = ["css/custom.css"]
