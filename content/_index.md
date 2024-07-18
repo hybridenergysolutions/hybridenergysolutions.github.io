@@ -8,9 +8,7 @@ hide_sections = true
 hide_title = true
 +++
 
-
-
-{{< paige/image src="/images/prius.png" width="50%" class="center" >}}
+{{< paige/image src="/images/prius.png" width="75%" class="center-image">}}
 
 <h1 class="fw-bold text-center" style="margin-top:2rem">The best in the business!</h1>
 

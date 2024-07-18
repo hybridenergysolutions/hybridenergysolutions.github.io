@@ -10,15 +10,14 @@
 
 .flex-center ul,
 .flex-center ol {
-  text-align: center;
+  text-align: left;
   display: inline-block;
 }
 
-.center-image {
-    display: flex;
-    justify-content: center;
-}
-
-.center-image figure {
-    margin: 0;
+.custom-center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
 }

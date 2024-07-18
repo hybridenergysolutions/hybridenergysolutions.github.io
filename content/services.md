@@ -59,8 +59,8 @@ title = "Services"
 
 ## Toyota Prius ABS Module
 **Gen 2 Toyota Prius (2004-2009) & Gen 3 Toyota Prius (2010-2015)**
-Used-$900
-New-$1300
+- $900 (Used)
+- $1300 (New)
 
 **Gen 3 Toyota Prius (2010-2015) Engine Water Pump**
 - $500

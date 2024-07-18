@@ -5,14 +5,24 @@ description = ""
 draft = false
 link = ""
 tags = []
-title = "Contact"
+title = "How to contact us"
+[paige.page]
+hide_title = true
 +++
 
+<div class="text-center">
+        
+        
+### **Location(s):**
+**Main Office:** 1614 S Carlos Ave, Ontario, CA. 91761 Suite(B) 
+**Shop:** 404 S Cherry Ave. Ontario, CA 91761
 
-                Call or Text: (442) 234-3367 (760) 790-8363 
+### **Call or Text:**
+<i class="bi bi-telephone"> (442) 234-3367</i>
+<i class="bi bi-telephone"> (760) 790-8363</i>
 
-                Email: HybridEnergySolutions24@gmail.com
+</div>
 
-                Location(s):
-                Office:1614 S Carlos Ave, Ontario, CA. 91761 Suite(B) 
-                Shop: 404 S Cherry Ave. Ontario, CA 91761
+<div class="column-gap-3 d-flex display-7 justify-content-center">
+<i class="bi bi-envelope"> HybridEnergySolutions24@gmail.com</i>
+</div>

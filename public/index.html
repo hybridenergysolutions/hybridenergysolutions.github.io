@@ -179,7 +179,31 @@
 
 <style>
 
-    
+    .flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-center > * {
+  max-width: 100%;
+}
+
+.flex-center ul,
+.flex-center ol {
+  text-align: center;
+  display: inline-block;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+}
+
+.center-image figure {
+    margin: 0;
+}
+
 
 
 .paige-figure-numbered {
@@ -745,7 +769,7 @@ table {
 
 
 
-<img   class="img-fluid center"  crossorigin="anonymous"   height="845"   referrerpolicy="no-referrer"  src="http://localhost:1313/images/prius.93da722ccbc738db8c16911d8da963a3f2488718ee52b7fcb192128afe644bf6.png"   style="height: auto; width: 50%"    width="1280" >
+<img   class="img-fluid center-image"  crossorigin="anonymous"   height="845"   referrerpolicy="no-referrer"  src="http://localhost:1313/images/prius.93da722ccbc738db8c16911d8da963a3f2488718ee52b7fcb192128afe644bf6.png"   style="height: auto; width: 75%"    width="1280" >
 
 
 </div>
@@ -818,19 +842,11 @@ table {
 
     
         
-            
+    
         
     
         
-            
-        
     
-        
-            
-        
-    
-        
-            
         
     
 

@@ -10,6 +10,16 @@
 
 .flex-center ul,
 .flex-center ol {
-  text-align: left;
+  text-align: center;
   display: inline-block;
+  color: red;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+}
+
+.center-image figure {
+    margin: 0;
 }
