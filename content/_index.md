@@ -8,9 +8,9 @@ hide_sections = true
 hide_title = true
 +++
 
-{{< paige/image src="/images/prius.png" width="75%" class="center-image">}}
+{{< paige/image src="/images/hybrid_energy_solutions_2.png" width="50%" class="center-image">}}
 
-<h1 class="fw-bold text-center" style="margin-top:2rem">The best in the business!</h1>
+<h1 class="fw-bold text-center">The best in the business!</h1>
 
 <div class="container-fluid">
     <div class="justify-content-center row">

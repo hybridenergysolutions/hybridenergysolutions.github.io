@@ -182,7 +182,29 @@
 
 <style>
 
-    
+    .flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-center > * {
+  max-width: 100%;
+}
+
+.flex-center ul,
+.flex-center ol {
+  text-align: center;
+  display: inline-block;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 
 .paige-figure-numbered {
@@ -497,6 +519,8 @@ table {
 
 
     
+        
+    
 
 
 
@@ -504,16 +528,12 @@ table {
         
 
         
-            <div class="display-1 fw-bold  mb-2  paige-row-wide text-center" id="paige-site-title">Hybrid Energy Solutions</div>
-        
 
-        
-            <div class="lead paige-row-wide text-center" id="paige-site-description">Powerful, pliable pixel perfection</div>
         
 
         
             <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
-                <ul class="align-items-center justify-content-center nav ">
+                <ul class="align-items-center justify-content-center nav  nav-tabs ">
                     
                         
                         
@@ -522,7 +542,7 @@ table {
                         
 
                         <li class="nav-item ">
-                            <a   class="  nav-link   text-decoration-underline "  href="/"    >Home</a>
+                            <a   class="  nav-link  "  href="/"    >Home</a>
 
                             
                         </li>
@@ -534,7 +554,7 @@ table {
                         
 
                         <li class="nav-item ">
-                            <a   class="  nav-link   text-decoration-underline "  href="/contact"    >Contact</a>
+                            <a   class="  nav-link  "  href="/contact"    >Contact</a>
 
                             
                         </li>
@@ -546,7 +566,7 @@ table {
                         
 
                         <li class="nav-item ">
-                            <a   class="  nav-link   text-decoration-underline "  href="/services"    >Services</a>
+                            <a   class="  nav-link  "  href="/services"    >Services</a>
 
                             
                         </li>
@@ -558,7 +578,7 @@ table {
                         
 
                         <li class="nav-item ">
-                            <a   class="  nav-link   text-decoration-underline "  href="/search/"    >Search</a>
+                            <a   class="  nav-link  "  href="/diagnosing"    >Diagnosing</a>
 
                             
                         </li>

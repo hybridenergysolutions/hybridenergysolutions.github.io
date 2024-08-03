@@ -1,8 +1,11 @@
-baseurl = "https://example.com"
+baseurl = "https://hybridenergysolutions.github.io/"
 enablerobotstxt = true
 paginate = 50
 timezone = "America/Los_Angeles"
 titlecasestyle = "Go"
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
 
 [languages.en]
 languagecode = "en-us"
@@ -12,8 +15,8 @@ weight = 10
 
 [languages.en.params.paige]
 copyright = "© Hybrid Energy Solutions"
-description = "Powerful, pliable pixel perfection"
-title = "Hybrid Energy Solutions"
+menu_style = "tabs" # Must be "links", "pills", "tabs", or "underline"
+breakpoint = "sm"
 
 [[languages.en.menu.main]]
 identifier = "home"
@@ -31,13 +34,13 @@ weight = 20
 identifier = "services"
 name = "Services"
 url = "/services"
-weight = 90
+weight = 30
 
 [[languages.en.menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search/"
-weight = 100
+identifier = "diagnosing"
+name = "Diagnosing"
+url = "/Diagnosing"
+weight = 40
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -85,9 +88,3 @@ author = "authors"
 category = "categories"
 series = "series"
 tag = "tags"
-
-[[module.imports]]
-path = "github.com/willfaught/paige"
-
-[params]
-custom_css = ["css/custom.css"]
