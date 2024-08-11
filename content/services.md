@@ -8,6 +8,11 @@ tags = []
 title = "Services"
 +++
 
+<div class="container-fluid">
+    <div class="justify-content-center row">
+        <div class="col col-auto col-xl-10 px-0">
+            <p class="lead mb-0 text-center">Here are some of the services we provide along with pricing. Please contact us for more questions.</p>
+        
 ---
 
 * #### <ins> Toyota Hybrid Battery (code: P0A80): </ins>
@@ -78,13 +83,17 @@ title = "Services"
 ---
 
 * #### <ins> Mobile Service Fees From Ontario, CA Shop </ins>
-    * - 0-20mile: $50
-    * - 20-50mile: $75
-    * - 50-100mile: $100
-    * - 100+ mile: $150
+     - 0-20mile: $50
+     - 20-50mile: $75
+     - 50-100mile: $100
+     - 100+ mile: $150
 
 ---
 
 **Towing services available upon request. Rates apply based on location (contact for more info).**
 
 #### <ins> **All pricing includes labor** </ins>
+
+</div>
+</div>
+</div>
