@@ -2,7 +2,7 @@
 {{ .Scratch.Set "unit" (.Get "unit") }}
 {{ .Scratch.Set "ordinal" .Ordinal }}
 {{ .Scratch.Set "items" (.Get "items") }}
-<div id="carousel{{ .Ordinal }}" class="carousel center-image" duration="{{ .Get `duration` }}" style="width: 1000px; height: 500px ">
+<div id="carousel{{ .Ordinal }}" class="carousel center-image" duration="{{ .Get `duration` }}" style="width: 100%; height: 100% ">
     <ul>
       {{ range $index, $slide := .Site.Data.carousel.images }}
         <li id="c{{ $.Scratch.Get "ordinal" }}_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.Scratch.Get "items" }}); padding-bottom: {{ $.Scratch.Get "height" }}{{ $.Scratch.Get "unit" }};">
