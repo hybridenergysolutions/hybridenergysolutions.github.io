@@ -1,4 +1,4 @@
-baseurl = "https://hybridenergysolutions.github.io/"
+baseurl = "https://www.hybrid-energy-solutions.com"
 enablerobotstxt = true
 paginate = 50
 timezone = "America/Los_Angeles"
